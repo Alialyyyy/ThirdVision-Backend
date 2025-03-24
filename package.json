@@ -17,5 +17,8 @@
     "url": "https://github.com/Alialyy/Backend-ThirdVision/issues"
   },
   "homepage": "https://github.com/Alialyy/Backend-ThirdVision#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
