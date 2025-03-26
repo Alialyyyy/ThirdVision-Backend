@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Alialyy/Backend-ThirdVision#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "ssh2": "^1.16.0",
     "ws": "^8.18.1"
