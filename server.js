@@ -12,9 +12,10 @@ import { WebSocketServer } from 'ws';
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-    cors: { origin: "*",
-        methods: ["GET", "POST"]
-     }
+    cors: { 
+        origin: "*",
+        methods: ["GET", "POST"],
+     },
 });
 
 app.use(express.json());
@@ -869,7 +870,7 @@ io.on("connection", (socket) => {
 });
 
 // 🛠 START SERVER
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`✅ Server running on port ${PORT}`);
 });
